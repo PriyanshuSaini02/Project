@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet" href="contactus.css">
+<title>Contact Us</title>
+<body>
+    
+  <nav id="navbar">
+    <div id="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <div id="search">
+      <input type="search" name="search" placeholder="Search here" />
+    </div>
+    <ul>
+      <li><a href="project.html">Home</a></li>
+      <li><a href="Inventory.html">inventory</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+      <li><a href="aboutus.html">About</a></li>
+    </ul>
+  </nav>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="India">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<script src="all.js"></script>
+
+</body>
+</html>

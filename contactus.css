@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    text-align: center;
+    background: linear-gradient(#000, chartreuse);
+    color: white;
+    padding-top: 11px;
+    height:7vh;
+}
+
+#logo {
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
+
+#logo img {
+    margin: 0 3.125rem;
+    padding: 0 1.25rem;
+    height: 6.25rem;
+    width: 9.375em;
+}
+
+#navbar {
+    padding-top: 1.25rem;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: auto;
+}
+
+#navbar li {
+    margin: 0 0.125rem;
+    padding: 0 1.563rem;
+    filter: invert(100);
+}
+
+#navbar li a {
+    padding: 0.313rem 0.626rem;
+    border-radius: 1.25rem;
+    color: black;
+    font-size: 1.563rem;
+    text-decoration: none;
+    margin-top: 0.438rem;
+}
+
+#navbar li a:hover {
+    background-color: rgb(222, 212, 212);
+}
+
+#search {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    padding: 0 5.625rem;
+    margin-left: 12.5rem;
+    margin-bottom: 2rem;
+}
+
+#navbar input {
+    color: white;
+    background-color: #000;
+    border: 0.063rem solid white;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    width: 15.625rem;
+    border-radius: 1.25rem;
+    margin-left: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}

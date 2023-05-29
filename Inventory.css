@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo {
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
+
+#logo img {
+    margin: 0 3.125rem;
+    padding: 0 1.25rem;
+    height: 6.25rem;
+    width: 9.375em;
+}
+
+#navbar {
+    padding-top: 1.25rem;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: auto;
+}
+
+#navbar li {
+    margin: 0 0.125rem;
+    padding: 0 1.563rem;
+    filter: invert(100);
+}
+
+#navbar li a {
+    padding: 0.313rem 0.626rem;
+    border-radius: 1.25rem;
+    color: black;
+    font-size: 1.563rem;
+    text-decoration: none;
+    margin-top: 0.438rem;
+}
+
+#navbar li a:hover {
+    background-color: rgb(222, 212, 212);
+}
+
+#search {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    padding: 0 5.625rem;
+    margin-left: 12.5rem;
+    margin-bottom: 2rem;
+}
+
+#navbar input {
+    color: white;
+    background-color: #000;
+    border: 0.063rem solid white;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    width: 15.625rem;
+    border-radius: 1.25rem;
+    margin-left: auto;
+}
+
+#head{
+    text-align: center;
+    background: linear-gradient(#000, chartreuse);
+    padding-top: 11px;
+    height: 7vh;
+}
+
+
+.options{
+    display: flex;
+    background-color: #000;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    
+    border: 5px solid white;
+    border-radius: 2rem;
+    color: beige;
+}
+
+button{
+    margin-left: 60px;
+    margin-right: auto;
+    border-radius: 2px;
+    color: aqua;
+    background-color:#0007;
+}
+
+p{
+    text-align: center;
+}
+
+#para{
+    display: none;
+}
+
+
+#para1{
+    display: none;
+}
+
+#para2{
+    display: none;
+}
+
+#para3{
+    display: none;
+}
+
+#para4{
+    display: none;
+}
+
+#para5{
+    display: none;
+}
+
+#para6{
+    display: none;
+}
+
+#para7{
+    display: none;
+}
+
+.container a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container img{
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
+    height: 200px;
+    width: 230px;
+}
